@@ -20,7 +20,7 @@
           clang-tools
           bear
           cmake
-          linuxHeaders
+          libbpf
           spdlog
           cxxopts
         ];
