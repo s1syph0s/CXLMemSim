@@ -23,7 +23,10 @@
           libbpf
           spdlog
           cxxopts
+          linuxHeaders
+          rdma-core
         ];
+        inputsFrom = [pkgs.qemu];
       };
   };
 }

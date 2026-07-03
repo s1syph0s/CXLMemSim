@@ -58,6 +58,8 @@ set(SOURCE_FILES
     src/monitor.cpp
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     list(APPEND SOURCE_FILES
         src/incore.cpp
